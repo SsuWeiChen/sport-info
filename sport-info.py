@@ -77,7 +77,7 @@ def NBA_news():
 
 
 def MLB_news():
-    target_url = 'https://nba.udn.com/nba/index'
+    target_url = 'https://tw.sports.yahoo.com/mlb/'
     print('Start parsing sport ...')
     rs = requests.session()
     res = rs.get(target_url, verify=False)
